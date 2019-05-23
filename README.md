@@ -16,7 +16,7 @@
   - [Facebook Open Graph](#facebook-open-graph)
   - [Twitter Card](#twitter-card)
   - [Twitter Privacy](#twitter-privacy)
-  - [Google+ / Schema.org](#google--schemaorg)
+  - [Schema.org](#schemaorg)
   - [Pinterest](#pinterest)
   - [Facebook Instant Articles](#facebook-instant-articles)
   - [OEmbed](#oembed)
@@ -150,9 +150,6 @@
 <!-- 通过设置为 "off" 完全退出 DNS 预取 -->
 <meta http-equiv="x-dns-prefetch-control" content="off">
 
-<!-- 在客户端存储 cookie，web 浏览器的客户端识别 -->
-<meta http-equiv="set-cookie" content="name=value; expires=date; path=url">
-
 <!-- 指定要显示在一个特定框架中的页面 -->
 <meta http-equiv="Window-Target" content="_value">
 
@@ -279,6 +276,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Content Title">
 <meta property="og:image" content="https://example.com/image.jpg">
+<meta property="og:image:alt" content="A description of what is in the image (not a caption)">
 <meta property="og:description" content="Description Here">
 <meta property="og:site_name" content="Site Name">
 <meta property="og:locale" content="en_US">
@@ -299,6 +297,7 @@
 <meta name="twitter:title" content="Content Title">
 <meta name="twitter:description" content="Content description less than 200 characters">
 <meta name="twitter:image" content="https://example.com/image.jpg">
+<meta name="twitter:image:alt" content="A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters.">
 ```
 
 - 📖 [名片入门指南 - Twitter 开发者](https://dev.twitter.com/cards/getting-started)
@@ -311,7 +310,7 @@
 <meta name="twitter:dnt" content="on">
 ```
 
-### Google+ / Schema.org
+### Schema.org
 
 ```html
 <html lang="" itemscope itemtype="https://schema.org/Article">
@@ -329,7 +328,7 @@
 
 ### Pinterest
 
-根据他们的[帮助中心](https://help.pinterest.com/en/articles/prevent-people-saving-things-pinterest-your-site)可知，Pinterest 允许你禁止他人保存你网站里的内容。`description` 为可选。
+根据他们的[帮助中心](https://help.pinterest.com/en/business/article/prevent-saves-to-pinterest-from-your-site)可知，Pinterest 允许你禁止他人保存你网站里的内容。`description` 为可选。
 
 ```html
 <meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">
@@ -569,7 +568,7 @@
 
 #### 1、`master`
 
-对该分支包含的 `README.md` 文件的修改会自动反映在 [gethead.info](https://gethead.info/) 网站上。 所有对照表内容的更改都应该针对此文件。
+对该分支包含的 `README.md` 文件的修改会自动反映在 [htmlhead.dev](https://htmlhead.dev/) 网站上。 所有对照表内容的更改都应该针对此文件。
 
 请按照下列步骤 pull 请求：
 
@@ -580,7 +579,7 @@
 
 #### 2. `gh-pages`
 
-该分支负责 [gethead.info](https://gethead.info/) 网站。我们使用 [Jekyll](https://jekyllrb.com/) 通过 [GitHub Pages](https://pages.github.com/) 服务来部署 `README.md` Markdown 文件。所有网站相关的修改必须集中在这里。
+该分支负责 [htmlhead.dev](https://htmlhead.dev/) 网站。我们使用 [Jekyll](https://jekyllrb.com/) 通过 [GitHub Pages](https://pages.github.com/) 服务来部署 `README.md` Markdown 文件。所有网站相关的修改必须集中在这里。
 
 你可能需要通过 [Jekyll 文档](https://jekyllrb.com/docs/home/) 来了解 Jekyll 是如何在该分支上工作的。
 
@@ -590,7 +589,7 @@
 
 ## 作者
 
-**[Josh Buchea](https://joshbuchea.com/)**
+**[Josh](https://twitter.com/joshbuchea)**
 
 ### 翻译者
 
