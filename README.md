@@ -1,9 +1,9 @@
 # HEAD
 
-[![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Contributors](https://img.shields.io/github/contributors/joshbuchea/head.svg)](https://github.com/joshbuchea/HEAD/graphs/contributors)
+> 一份关于任何\*可以\*写入到你的文档中 `<head>` 部分的清单。
 
-一份关于任何\*可以\*写入到你的文档中 `<head>` 部分的清单。
+[![CC0](https://img.shields.io/badge/license-CC0-green.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![Contributors](https://img.shields.io/github/contributors/joshbuchea/head.svg?style=flat-square)](https://github.com/joshbuchea/HEAD/graphs/contributors)
 
 ## 目录
 
