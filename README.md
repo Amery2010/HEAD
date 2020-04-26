@@ -1,9 +1,10 @@
-# HEAD
+# 🗿 HEAD
 
 > 一份关于任何\*可以\*写入到你的文档中 `<head>` 部分的清单。
 
+[![贡献者](https://img.shields.io/github/contributors/joshbuchea/head.svg?style=flat-square)](https://github.com/joshbuchea/HEAD/graphs/contributors)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Contributors](https://img.shields.io/github/contributors/joshbuchea/head.svg?style=flat-square)](https://github.com/joshbuchea/HEAD/graphs/contributors)
+[![在 Twitter 上关注 @joshbuchea](https://img.shields.io/badge/Follow_@joshbuchea-blue?logo=twitter&logoColor=white&style=flat-square)](https://twitter.com/joshbuchea)
 
 ## 目录
 
@@ -20,6 +21,7 @@
   - [Pinterest](#pinterest)
   - [Facebook Instant Articles](#facebook-instant-articles)
   - [OEmbed](#oembed)
+  - [QQ/微信](#qq微信)
 - [浏览器 / 平台](#浏览器--平台)
   - [Apple iOS](#apple-ios)
   - [Google Android](#google-android)
@@ -33,11 +35,12 @@
 - [其他资源](#其他资源)
 - [相关项目](#相关项目)
 - [其他格式](#其他格式)
-- [翻译](#翻译)
-- [贡献](#贡献)
+- [翻译](#-翻译)
+- [贡献](#-贡献)
   - [贡献者](#贡献者)
-- [作者](#作者)
-- [许可](#许可)
+- [作者](#-作者)
+- [支持](#-支持)
+- [协议](#-协议)
 
 ## 最小推荐
 
@@ -52,6 +55,14 @@
 -->
 <title>页面标题</title>
 ```
+
+**meta charset** - 定义网站的编码格式，默认为 `utf-8`。
+
+**meta name="viewport"** - 与移动端设备响应式有关的视口设置。
+
+**width=device-width** 表示它将使用设备的物理宽度（而不是缩放），这对于移动设备友好的页面来说是很有帮助。
+
+**initial-scale=1** 默认缩放，1 表示不缩放
 
 **[⬆ 返回顶部](#目录)**
 
@@ -270,6 +281,9 @@
 
 ### Facebook Open Graph
 
+> 大多数内容都是作为 URL 分享到 Facebook 的，因此，使用 Open Graph 标签标记网站来控制内容在 Facebook 上的显示方式显得尤为重要。[有关 Facebook Open Graph 标签的更多信息](https://developers.facebook.com/docs/sharing/webmasters#markup) 
+
+
 ```html
 <meta property="fb:app_id" content="123456789">
 <meta property="og:url" content="https://example.com/page.html">
@@ -283,11 +297,12 @@
 <meta property="article:author" content="">
 ```
 
-- 📖 [Facebook 的 Open Graph 的标记](https://developers.facebook.com/docs/sharing/webmasters#markup)
 - 📖 [Open Graph 协议](https://ogp.me/)
 - 🛠 [页面验证 - Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
 
 ### Twitter Card
+
+> 使用 Twitter Card，您可以将丰富的照片、视频和媒体资源附加到推文上，以帮助增加网站的访问量。[有关 Twitter Card 的更多信息](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards)
 
 ```html
 <meta name="twitter:card" content="summary">
@@ -362,6 +377,17 @@
 ```
 
 - 📖 [oEmbed 格式](https://oembed.com/)
+
+### QQ/微信
+
+用户将网页分享到 QQ 或微信会带有指定信息。
+
+```html
+<meta itemprop="name" content="分享标题">
+<meta itemprop="image" content="http://imgcache.qq.com/qqshow/ac/v4/global/logo.png">
+<meta name="description" itemprop="description" content="分享内容">
+```
+- 📖 [格式文档](http://open.mobile.qq.com/api/mqq/index#api:setShareInfo)
 
 **[⬆ 返回顶部](#目录)**
 
@@ -543,11 +569,13 @@
 
 **[⬆ 返回顶部](#目录)**
 
-## 翻译
+## 🌐 翻译
+
 
 - 🇺🇸 [英语/English](https://github.com/joshbuchea/HEAD)
 - 🇨🇳 [简体中文/Chinese (Simplified)](https://github.com/Amery2010/HEAD)
 - 🇩🇪 [德语/German](https://github.com/Shidigital/HEAD)
+- 🇮🇩 [巴哈萨语/Bahasa](https://github.com/rijdz/HEAD)
 - 🇧🇷 [巴西葡萄牙语/Brazilian Portuguese](https://github.com/Webschool-io/HEAD)
 - 🇮🇹 [意大利语/Italian](https://github.com/Fakkio/HEAD)
 - 🇯🇵 [日语/Japanese](https://coliss.com/articles/build-websites/operation/work/collection-of-html-head-elements.html)
@@ -558,7 +586,8 @@
 
 **[⬆ 返回顶部](#目录)**
 
-## 贡献
+## 🤝 贡献
+
 
 **开启一个 issue 或一个 pull 请求来提出修改或补充。**
 
@@ -587,15 +616,28 @@
 
 列出所有超级棒的 [贡献者们](https://github.com/joshbuchea/HEAD/graphs/contributors).
 
-## 作者
+## 👤 作者
 
-**[Josh](https://twitter.com/joshbuchea)**
+**Josh Buchea**
+
+- Twitter: [@joshbuchea](https://twitter.com/joshbuchea)
+- Github: [@joshbuchea](https://github.com/joshbuchea)
 
 ### 翻译者
 
 **[子丶言](https://xiangfa.org/)**
 
-## 协议
+## ⭐️ 支持
+
+如果这个项目对您有帮助，请 ⭐️这个项目！
+
+```html
+<a href="https://www.patreon.com/joshbuchea">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+```
+
+## 📝 协议
 
 ![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png "CC0")
 
