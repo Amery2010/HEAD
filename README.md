@@ -39,7 +39,6 @@
 - [贡献](#-贡献)
   - [贡献者](#贡献者)
 - [作者](#-作者)
-- [支持](#-支持)
 - [协议](#-协议)
 
 ## 最小推荐
@@ -627,15 +626,13 @@
 
 **[子丶言](https://xiangfa.org/)**
 
-## ⭐️ 支持
+### ⭐️支持
 
 如果这个项目对您有帮助，请 ⭐️这个项目！
 
-```html
 <a href="https://www.patreon.com/joshbuchea">
   <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
-```
 
 ## 📝 协议
 
