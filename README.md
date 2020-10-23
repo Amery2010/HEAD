@@ -2,9 +2,9 @@
 
 > 一份关于任何\*可以\*写入到你的文档中 `<head>` 部分的清单。
 
-[![贡献者](https://img.shields.io/github/contributors/joshbuchea/head.svg?style=flat-square)](https://github.com/joshbuchea/HEAD/graphs/contributors)
-[![CC0](https://img.shields.io/badge/license-CC0-green.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![在 Twitter 上关注 @joshbuchea](https://img.shields.io/badge/Follow_@joshbuchea-blue?logo=twitter&logoColor=white&style=flat-square)](https://twitter.com/joshbuchea)
+[![贡献者](https://img.shields.io/github/contributors/joshbuchea/head.svg?style=for-the-badge)](https://github.com/joshbuchea/HEAD/graphs/contributors)
+[![CC0](https://img.shields.io/badge/license-CC0-green.svg?style=for-the-badge)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![在 Twitter 上关注 @joshbuchea](https://img.shields.io/badge/Follow_@joshbuchea-blue?logo=twitter&logoColor=white&style=for-the-badge)](https://twitter.com/joshbuchea)
 
 ## 目录
 
