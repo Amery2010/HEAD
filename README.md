@@ -1,10 +1,10 @@
-# 🗿 HEAD
+# 🤯 HEAD
 
-> 一份关于任何\*可以\*写入到你的文档中 `<head>` 部分的清单。
+> HTML `<head>` 元素的简单指南
 
-[![贡献者](https://img.shields.io/github/contributors/joshbuchea/head.svg?style=for-the-badge)](https://github.com/joshbuchea/HEAD/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/joshbuchea/head.svg?style=for-the-badge)](https://github.com/joshbuchea/HEAD/graphs/contributors)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg?style=for-the-badge)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![在 Twitter 上关注 @joshbuchea](https://img.shields.io/badge/Follow_@joshbuchea-blue?logo=twitter&logoColor=white&style=for-the-badge)](https://twitter.com/joshbuchea)
+[![Follow @joshbuchea on Twitter](https://img.shields.io/badge/Follow_@joshbuchea-blue?logo=twitter&logoColor=white&style=for-the-badge)](https://twitter.com/joshbuchea)
 
 ## 目录
 
@@ -21,7 +21,7 @@
   - [Pinterest](#pinterest)
   - [Facebook Instant Articles](#facebook-instant-articles)
   - [OEmbed](#oembed)
-  - [QQ/微信](#qq微信)
+  - [QQ/微信](#qqwechat)
 - [浏览器 / 平台](#浏览器--平台)
   - [Apple iOS](#apple-ios)
   - [Google Android](#google-android)
@@ -39,7 +39,7 @@
 - [贡献](#-贡献)
   - [贡献者](#贡献者)
 - [作者](#-作者)
-- [协议](#-协议)
+- [许可](#-许可)
 
 ## 最小推荐
 
@@ -168,6 +168,7 @@
 <meta name="geo.position" content="latitude;longitude">
 <meta name="geo.region" content="country[-state]"><!-- 国家代码 (ISO 3166-1): 强制性, 州代码 (ISO 3166-2): 可选; 如 content="US" / content="US-NY" -->
 <meta name="geo.placename" content="city/town"><!-- 如 content="New York City" -->
+<meta name="monetization" content="$paymentpointer.example"><!-- 网络货币化 https://webmonetization.org/docs/getting-started -->
 ```
 
 - 📖 [Google 可以识别的 Meta 标签](https://support.google.com/webmasters/answer/79812?hl=zh-Hans)
@@ -279,6 +280,7 @@
 ## 社交
 
 ### Facebook Open Graph
+> 大多数内容以 URL 的形式共享到 Facebook，因此使用 Open Graph 标签标记您的网站以控制您的内容在 Facebook 上的显示方式就显得非常重要了。[更多关于 Facebook 开放图谱标记的信息](https://developers.facebook.com/docs/sharing/webmasters#markup)
 
 > 大多数内容都是作为 URL 分享到 Facebook 的，因此，使用 Open Graph 标签标记网站来控制内容在 Facebook 上的显示方式显得尤为重要。[有关 Facebook Open Graph 标签的更多信息](https://developers.facebook.com/docs/sharing/webmasters#markup) 
 
@@ -300,6 +302,7 @@
 - 🛠 [页面验证 - Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
 
 ### Twitter Card
+> 借助 Twitter 卡片，您可以将丰富的照片、视频和媒体体验附加到推文中，从而帮助您的网站增加流量。[更多关于 Twitter 卡片的信息](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards)
 
 > 使用 Twitter Card，您可以将丰富的照片、视频和媒体资源附加到推文上，以帮助增加网站的访问量。[有关 Twitter Card 的更多信息](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards)
 
@@ -338,7 +341,8 @@
 
 **注意:** 这些 meta 标签需要在 `<html>` 中添加 `itemscope` 和 `itemtype` 属性。
 
-- 🛠 请在 [结构化数据测试工具](https://developers.google.com/structured-data/testing-tool/) 上测试你的页面
+- 📖 [入门 - schema.org](https://schema.org/docs/gs.html)
+- 🛠 使用[多结果测试](https://search.google.com/test/rich-results)测试您的页面 
 
 ### Pinterest
 
@@ -384,9 +388,10 @@
 ```html
 <meta itemprop="name" content="分享标题">
 <meta itemprop="image" content="http://imgcache.qq.com/qqshow/ac/v4/global/logo.png">
-<meta name="description" itemprop="description" content="分享内容">
+<meta name="description" itemprop="description" content="分享描述">
 ```
-- 📖 [格式文档](http://open.mobile.qq.com/api/mqq/index#api:setShareInfo)
+- 📖 [分享格式文档](http://open.mobile.qq.com/api/mqq/index#api:setShareInfo)
+
 
 **[⬆ 返回顶部](#目录)**
 
@@ -542,7 +547,7 @@
 <meta property="al:web:url" content="https://applinks.org/documentation">
 ```
 
-- 📖 [应用链接文档](https://applinks.org/documentation/)
+- 📖 [应用链接文档](https://developers.facebook.com/docs/applinks)
 
 **[⬆ 返回顶部](#目录)**
 
@@ -570,11 +575,10 @@
 
 ## 🌐 翻译
 
-
 - 🇺🇸 [英语/English](https://github.com/joshbuchea/HEAD)
 - 🇨🇳 [简体中文/Chinese (Simplified)](https://github.com/Amery2010/HEAD)
 - 🇩🇪 [德语/German](https://github.com/Shidigital/HEAD)
-- 🇮🇩 [巴哈萨语/Bahasa](https://github.com/rijdz/HEAD)
+- 🇮🇩 [印尼语/Bahasa](https://github.com/rijdz/HEAD)
 - 🇧🇷 [巴西葡萄牙语/Brazilian Portuguese](https://github.com/Webschool-io/HEAD)
 - 🇮🇹 [意大利语/Italian](https://github.com/Fakkio/HEAD)
 - 🇯🇵 [日语/Japanese](https://coliss.com/articles/build-websites/operation/work/collection-of-html-head-elements.html)
@@ -586,7 +590,6 @@
 **[⬆ 返回顶部](#目录)**
 
 ## 🤝 贡献
-
 
 **开启一个 issue 或一个 pull 请求来提出修改或补充。**
 
@@ -626,15 +629,16 @@
 
 **[子丶言](https://xiangfa.org/)**
 
-### ⭐️支持
 
-如果这个项目对您有帮助，请 ⭐️这个项目！
+## 表达您的支持
+
+如果这个项目对您有帮助，请 ⭐️ 这个仓库！
 
 <a href="https://www.patreon.com/joshbuchea">
   <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
-## 📝 协议
+## 📝 许可
 
 ![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png "CC0")
 
