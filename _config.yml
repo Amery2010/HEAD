@@ -1,0 +1,25 @@
+# Site settings
+title: HTML `<head>` 元素的简单指南
+description: "<head> 元素的免费指南"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://htmlhead.u14.app" # the base hostname & protocol for your site (no trailing slash)
+twitter_username: gpngfng227390
+github_username: Amery2010
+microsoft_clarity: lhi1t4k3f8
+exclude: [readme.md]
+sass:
+  #style: compressed
+
+# Build settings
+markdown: kramdown
+
+# Compress HTML
+compress_html:
+  clippings: all
+  comments: []
+  endings: [p, li, td]
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
