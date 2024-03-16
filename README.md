@@ -5,7 +5,6 @@
 [![贡献者](https://img.shields.io/github/contributors/joshbuchea/head.svg?style=for-the-badge)](https://github.com/joshbuchea/HEAD/graphs/contributors)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg?style=for-the-badge)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![在 Mastodon 上关注 @joshbuchea](https://img.shields.io/badge/Follow_@joshbuchea-purple?logo=mastodon&logoColor=white&style=for-the-badge)](https://hachyderm.io/@joshbuchea)
-[![使用 Vercel 进行部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Amery2010/HEAD/master&template=jekyll)
 
 ## 目录
 
@@ -709,7 +708,7 @@ Pinterest 允许您根据[他们的帮助中心](https://help.pinterest.com/en/b
 
 使用 Vercel 部署您自己的页面。
 
-[![使用 Vercel 进行部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Amery2010/HEAD/master&template=jekyll)
+[![使用 Vercel 进行部署](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2FAmery2010%2FHEAD&hasTrialAvailable=1&showOptionalTeamCreation=false&project-name=HEAD&framework=jekyll&totalProjects=1&remainingProjects=1)
 
 ## 🌟 贡献者
 
