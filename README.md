@@ -723,7 +723,10 @@ Pinterest 允许您根据[他们的帮助中心](https://help.pinterest.com/en/b
 
 ### 翻译者
 
-**[子丶言](https://github.com/Amery2010)**
+**子丶言**
+
+- GitHub: [@Amery2010](https://github.com/Amery2010)
+- 网站: [@xiangfa.org](https://xiangfa.org)
 
 ## 💛 支持
 
