@@ -1,6 +1,6 @@
 # Site settings
-title: `<head>` 元素的简单指南
-description: "一份简单的 `<head>` 元素使用指南"
+title: "<head> 元素的简单指南"
+description: "一份简单的 <head> 元素使用指南"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://htmlhead.u14.app" # the base hostname & protocol for your site (no trailing slash)
 twitter_username: gpngfng227390
